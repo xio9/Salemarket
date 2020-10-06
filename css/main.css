@@ -20,17 +20,22 @@ body{
     line-height: 17px;
 }
 .container{
-    width: 90%;
-    max-width: 1256px;
+    width: 85%;
+    max-width: 1200px;
     margin: auto;
-    display: flex;
 }
 .header{
     margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.nav{
+    display: flex;
 }
 .phone-number{
     display: block;
     margin-left: 15px;
+    margin-right: 90px;
 }
 .heading-red{
     color: #D02B38;
@@ -48,5 +53,25 @@ body{
     font-weight: 500;
     font-size: 12px;
     line-height: 143.69%;
+    color: #000000;
+}
+.img-facebook{
+    margin-right: 25px;
+}
+.img-instagram{
+    margin-right: 120px;
+}
+.img-logo{
+    display: flex;
+    margin-bottom: 10px;
+}
+.logo-text{
+    margin-left: -10px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 143.69%;
+    letter-spacing: -0.02em;
     color: #000000;
 }
