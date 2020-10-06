@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/Muller Regular'), url('../fonts/Muller-Regular'),
+        url('../fonts/MullerRegular.woff2') format('woff2'),
+        url('../fonts/MullerRegular.woff') format('woff'),
+        url('../fonts/MullerRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+}
+.container{
+    width: 90%;
+    max-width: 1256px;
+    margin: auto;
+    display: flex;
+}
+.header{
+    margin-top: 50px;
+}
+.phone-number{
+    display: block;
+    margin-left: 15px;
+}
+.heading-red{
+    color: #D02B38;
+    margin-bottom: 2px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 143.69%;
+    line-height: 23px;
+}
+.heading-normal{
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 143.69%;
+    color: #000000;
+}
