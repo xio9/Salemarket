@@ -157,7 +157,7 @@ body{
     padding-top: 50px;
     padding-bottom: 76px;
 }
-.about-heading{
+.regular-heading{
     font-family: Muller;
     font-style: normal;
     font-weight: bold;
@@ -167,12 +167,13 @@ body{
     letter-spacing: -0.02em;
     color: #333333;
 }
-.about-heading::after{
+.about-head::after{
     display: block;
     content: '';
     border: 4px solid #D02B38;
     width: 230px;
     margin: auto;
+    margin-bottom: 50px;
 }
 .about-box{
     display: flex;
@@ -207,4 +208,56 @@ body{
 }
 .about-info{
     display: block;
+}
+.reg-head::after{
+    display: block;
+    content: '';
+    border: 4px solid #D02B38;
+    width: 370px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.photos{
+    font-family: Muller;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 143.69%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.clothes{
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+.clothes-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.clothes-box{
+    margin-right: 31px;
+}
+.clothes-heading{
+    font-family: Muller;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 143.69%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin: 0;
+}
+.clothes-text{
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 143.69%;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.5);
+}
+.clothes-img{
+    margin-bottom: 20px;
 }
