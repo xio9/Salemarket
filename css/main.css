@@ -26,6 +26,7 @@ body{
 }
 .header{
     margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
 }
 .nav{
@@ -102,4 +103,50 @@ body{
 }
 .img-cart{
     margin-right: 15px;
+}
+.card-wrap{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    position: relative;
+    margin: 0 50px 60px 0;
+    flex-basis: 45%;
+}
+.main-heading{
+    display: block;
+    position: absolute;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 143.69%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #D02B38;
+    left: 0;
+    right: 0;
+}
+.view{
+    display: block;
+    position: absolute;
+    bottom: 10%;
+    width: 192px;
+    height: 52px;
+    background: #F9F9F9;
+    border-radius: 10px;
+    left: 30%;
+}
+.view-text{
+    padding: 13px 37px 13px 36px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 143.69%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
 }
