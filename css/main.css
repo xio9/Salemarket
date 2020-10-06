@@ -27,10 +27,11 @@ body{
 .header{
     margin-top: 50px;
     display: flex;
-    align-items: center;
 }
 .nav{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .phone-number{
     display: block;
@@ -61,6 +62,9 @@ body{
 .img-instagram{
     margin-right: 120px;
 }
+.logo{
+    margin-right: 120px;
+}
 .img-logo{
     display: flex;
     margin-bottom: 10px;
@@ -74,4 +78,28 @@ body{
     line-height: 143.69%;
     letter-spacing: -0.02em;
     color: #000000;
+}
+.trans-ru{
+    margin-right: 20px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 143.69%;
+    color: #D02B38;
+}
+.trans-lat{
+    margin-right: 88px;
+    color: rgba(0, 0, 0, 0.2);
+    font-family: Muller;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 143.69%;
+}
+.img-loupe{
+    margin-right: 34px;
+}
+.img-cart{
+    margin-right: 15px;
 }
