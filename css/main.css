@@ -531,3 +531,13 @@ body{
         margin-left: 0px;
     }
 }
+@media (min-width:1400px){
+    .footer-group-col{
+        margin-left: 900px;
+    }
+}
+@media (min-width:1600px){
+    .footer-group-col{
+        margin-left: 1000px;
+    }
+}
