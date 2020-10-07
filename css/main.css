@@ -150,6 +150,7 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     color: #000000;
+    text-decoration: none;
 }
 .about{
     background: #F9F9F9;
@@ -323,14 +324,14 @@ body{
     color: #FFFFFF;
 }
 .long{
-    text-align: center;
     display: flex;
     background: #F9F9F9;
     border-radius: 10px;
     margin-left: 25px;
     height: 45px;
-    margin-top: 15px;
+    margin-top: 17px;
     width: 200px;
+    padding-left: 60px;
 }
 .short{
     margin-top: 30px;
@@ -395,6 +396,12 @@ body{
     flex-direction: column;
     margin-right: 70px;
 }
+.footer-group-col{
+    position: absolute;
+    display: block;
+    margin-left: 700px;
+    margin-top: -120px;
+}
 .light-heading{
     font-family: Muller;
     font-style: normal;
@@ -432,24 +439,32 @@ body{
     margin-right: 25px;
 }
 .form-text{
+    width: 150px;
     font-family: Muller;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 143.69%;
     color: #000000;
-    padding: 10px 43px 10px 43px;
+    padding: 10px 0px 10px 10px;
 }
 .form{
+    position: absolute;
+    display: block;
     background: #FFFFFF;
     border-radius: 10px;
     text-align: center;
     margin-bottom: 10px;
+    margin-left: -100px;
 }
 .red-btn{
+    position: absolute;
+    margin-left: 100px;
+    display: block;
+    width: 150px;
     background: #D02B38;
     border-radius: 10px;
-    padding: 8px 65px 8px 65px;
+    padding: 10px 0px 10px 10px;
     font-family: Muller;
     font-style: normal;
     font-weight: bold;
@@ -462,7 +477,7 @@ body{
     border: none;
 }
 .swiper-button-next, .swiper-button-prev{
-    margin-top: 2925px;
+    margin-top: 2910px;
 }
 .swiper-button-next{
     margin-right: 300px;
@@ -472,6 +487,11 @@ body{
 }
 .phone-img{
     margin-left: -25px;
+}
+.swiper-button-prev,
+.swiper-button-next{
+    height: 30px;
+    width: 30px;
 }
 @media (max-width:1400px){
     .heading-red{
@@ -500,12 +520,12 @@ body{
         margin-right: 50px;
     }
     .swiper-button-next, .swiper-button-prev{
-        margin-top: 2425px;
+        margin-top: 2315px;
     }
 }
 @media (max-width:1800px){
     .swiper-button-next{
-        margin-right: 0px;
+        margin-right: 50px;
     }
     .swiper-button-prev{
         margin-left: 0px;
