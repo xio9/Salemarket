@@ -492,6 +492,8 @@ body{
     .logo{
         margin-right: 50px;
     }
+}
+@media (max-width:1800px){
     .swiper-button-next{
         margin-right: 0px;
     }
