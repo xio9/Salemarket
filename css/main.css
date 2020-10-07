@@ -62,10 +62,10 @@ body{
     margin-right: 25px;
 }
 .img-instagram{
-    margin-right: 120px;
+    margin-right: 100px;
 }
 .logo{
-    margin-right: 120px;
+    margin-right: 100px;
 }
 .img-logo{
     display: flex;
@@ -91,7 +91,7 @@ body{
     color: #D02B38;
 }
 .trans-lat{
-    margin-right: 88px;
+    margin-right: 60px;
     color: rgba(0, 0, 0, 0.2);
     font-family: Muller;
     font-style: normal;
@@ -100,7 +100,7 @@ body{
     line-height: 143.69%;
 }
 .img-loupe{
-    margin-right: 34px;
+    margin-right: 20px;
 }
 .img-cart{
     margin-right: 15px;
@@ -261,6 +261,7 @@ body{
     color: rgba(0, 0, 0, 0.5);
 }
 .clothes-img{
+    width: 250px;
     margin-bottom: 20px;
 }
 .partners{
@@ -327,11 +328,15 @@ body{
     background: #F9F9F9;
     border-radius: 10px;
     margin-left: 25px;
+    height: 45px;
+    margin-top: 10px;
 }
 .short{
     margin-top: 30px;
     background: #F9F9F9;
     border-radius: 10px;
+    width: 200px;
+    margin-left: 50px;
 }
 .delivery{
     padding-top: 50px;
@@ -463,10 +468,10 @@ body{
 .swiper-button-prev{
     margin-left: 275px;
 }
+.phone-img{
+    margin-left: -25px;
+}
 @media (max-width:1400px){
-    .container{
-        width: 100%;
-    }
     .heading-red{
         font-size: 12px;
     }
@@ -478,13 +483,13 @@ body{
         width: 450px;
     }
     .clothes-img{
-        width: 250px;
+        width: 225px;
     }
     .phone-number{
         margin-right: 40px;
     }
     .img-instagram{
-        margin-right: 80px;
+        margin-right: 60px;
     }
     .trans-lat{
         margin-right: 50px;
