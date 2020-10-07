@@ -236,6 +236,7 @@ body{
 .clothes-wrap{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .clothes-box{
     margin-right: 31px;
@@ -277,6 +278,7 @@ body{
 }
 .partners-wrap{
     display: flex;
+    justify-content: center;
 }
 .partners-box--long{
     position: relative;
@@ -454,6 +456,12 @@ body{
 }
 
 @media (max-width:1400px){
+    .container{
+        width: 100%;
+    }
+    .heading-red{
+        font-size: 12px;
+    }
     .card{
         margin: 0 20px 20px 0;
     }
@@ -462,5 +470,17 @@ body{
     }
     .clothes-img{
         width: 200px;
+    }
+    .phone-number{
+        margin-right: 40px;
+    }
+    .img-instagram{
+        margin-right: 80px;
+    }
+    .trans-lat{
+        margin-right: 50px;
+    }
+    .logo{
+        margin-right: 50px;
     }
 }
