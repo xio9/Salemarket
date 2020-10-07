@@ -452,3 +452,15 @@ body{
     outline: none;
     border: none;
 }
+
+@media (max-width:1400px){
+    .card{
+        margin: 0 20px 20px 0;
+    }
+    .card-img{
+        width: 450px;
+    }
+    .clothes-img{
+        width: 200px;
+    }
+}
