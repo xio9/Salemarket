@@ -492,4 +492,10 @@ body{
     .logo{
         margin-right: 50px;
     }
+    .swiper-button-next{
+        margin-right: 0px;
+    }
+    .swiper-button-prev{
+        margin-left: 0px;
+    }
 }
