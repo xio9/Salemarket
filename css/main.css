@@ -464,6 +464,7 @@ body{
     }
     .card{
         margin: 0 20px 20px 0;
+        flex-basis: 0%;
     }
     .card-img{
         width: 450px;
