@@ -6,6 +6,8 @@
     <title>Salemarket</title>
     <link rel="stylesheet" href="fonts/MullerRegular.woff">
     <link rel="stylesheet" href="fonts/MullerRegular.woff2">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -150,46 +152,67 @@
             <!-- /reg-head -->
             <div class="photos">Фото клиентов</div>
             <div class="clothes-wrap">
-                <div class="clothes-box">
-                    <img class="clothes-img" src="img/cos.jpg" alt="">
-                    <div class="clothes-info">
-                        <h4 class="clothes-heading">Женское платье COS</h4>
-                        <div class="clothes-text">60% Хлопок, размер S</div>
+                <!-- Slider main container -->
+                <div class="swiper-container clothes-slider">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="clothes-box">
+                                <img class="clothes-img" src="img/cos.jpg" alt="">
+                                <div class="clothes-info">
+                                    <h4 class="clothes-heading">Женское платье COS</h4>
+                                    <div class="clothes-text">60% Хлопок, размер S</div>
+                                </div>
+                                <!-- /clothes-info -->
+                            </div>
+                            <!-- /clothes-box -->
+                        </div>
+                        <div class="swiper-slide">
+                                <div class="clothes-box">
+                                    <img class="clothes-img" src="img/otium.jpg" alt="">
+                                    <div class="clothes-info">
+                                        <h4 class="clothes-heading">Женская блузка Otium</h4>
+                                        <div class="clothes-text">85% Синтетика, размер M</div>
+                                    </div>
+                                    <!-- /clothes-info -->
+                                </div>
+                                <!-- /clothes-box -->
+                            </div>
+                            <!-- /swiper-slide -->
+                        <div class="swiper-slide">
+                            <div class="clothes-box">
+                                <img class="clothes-img" src="img/zara.jpg" alt="">
+                                <div class="clothes-info">
+                                    <h4 class="clothes-heading">Женское платье Zara</h4>
+                                    <div class="clothes-text">60% Хлопок, размер S</div>
+                                </div>
+                                <!-- /clothes-info -->
+                            </div>
+                            <!-- /clothes-box -->
+                        </div>
+                        <!-- /swiper-slide -->
+                        <div class="swiper-slide">
+                            <div class="clothes-box">
+                                <img class="clothes-img" src="img/mark.jpg" alt="">
+                                <div class="clothes-info">
+                                    <h4 class="clothes-heading">Женское  пальто Mark Form</h4>
+                                    <div class="clothes-text">85% Синтетика, размер M</div>
+                                </div>
+                                <!-- /clothes-info -->
+                            </div>
+                            <!-- /clothes-box -->
+                        </div>
                     </div>
-                    <!-- /clothes-info -->
+                    <!-- If we need navigation buttons -->
+                    <img class="swiper-button-prev" src="img/prev.svg" alt="">
+                    <img class="swiper-button-next" src="img/next.svg" alt="">
                 </div>
-                <!-- /clothes-box -->
-                <div class="clothes-box">
-                    <img class="clothes-img" src="img/otium.jpg" alt="">
-                    <div class="clothes-info">
-                        <h4 class="clothes-heading">Женское платье COS</h4>
-                        <div class="clothes-text">60% Хлопок, размер S</div>
-                    </div>
-                    <!-- /clothes-info -->
-                </div>
-                <!-- /clothes-box -->
-                <div class="clothes-box">
-                    <img class="clothes-img" src="img/zara.jpg" alt="">
-                    <div class="clothes-info">
-                        <h4 class="clothes-heading">Женское платье COS</h4>
-                        <div class="clothes-text">60% Хлопок, размер S</div>
-                    </div>
-                    <!-- /clothes-info -->
-                </div>
-                <!-- /clothes-box -->
-                <div class="clothes-box">
-                    <img class="clothes-img" src="img/mark.jpg" alt="">
-                    <div class="clothes-info">
-                        <h4 class="clothes-heading">Женское платье COS</h4>
-                        <div class="clothes-text">60% Хлопок, размер S</div>
-                    </div>
-                    <!-- /clothes-info -->
-                </div>
-                <!-- /clothes-box -->
             </div>
-            <!-- /clothes-wrap -->
         </div>
-        <!-- /container -->
+        <!-- /clothes-wrap -->
+    </div>
+    <!-- /container -->
     </section>
     <!-- /clothes -->
     <section class="partners">
@@ -303,5 +326,7 @@
         </div>
         <!-- /container -->
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
