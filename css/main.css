@@ -454,7 +454,15 @@ body{
     outline: none;
     border: none;
 }
-
+.swiper-button-next, .swiper-button-prev{
+    margin-top: 2925px;
+}
+.swiper-button-next{
+    margin-right: 300px;
+}
+.swiper-button-prev{
+    margin-left: 275px;
+}
 @media (max-width:1400px){
     .container{
         width: 100%;
