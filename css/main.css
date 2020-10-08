@@ -240,7 +240,8 @@ body{
     justify-content: center;
 }
 .clothes-box{
-    margin-right: 31px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .clothes-heading{
     font-family: Muller;
@@ -439,7 +440,6 @@ body{
     margin-right: 25px;
 }
 .form-text{
-    width: 150px;
     font-family: Muller;
     font-style: normal;
     font-weight: 500;
@@ -447,21 +447,30 @@ body{
     line-height: 143.69%;
     color: #000000;
     padding: 10px 0px 10px 10px;
+    margin-bottom: 20px;
 }
+.form-text:focus::-webkit-input-placeholder {
+    color: transparent
+  }
+  
+  :focus::-moz-placeholder {
+    color: transparent
+  }
+  
+  :focus:-moz-placeholder {
+    color: transparent
+  }
+  
+  :focus:-ms-input-placeholder {
+    color: transparent
+  }
 .form{
-    position: absolute;
     display: block;
     background: #FFFFFF;
     border-radius: 10px;
     text-align: center;
-    margin-bottom: 10px;
-    margin-left: -100px;
 }
 .red-btn{
-    position: absolute;
-    margin-left: 100px;
-    display: block;
-    width: 150px;
     background: #D02B38;
     border-radius: 10px;
     padding: 10px 0px 10px 10px;
@@ -476,22 +485,83 @@ body{
     outline: none;
     border: none;
 }
-.swiper-button-next, .swiper-button-prev{
-    margin-top: 2910px;
-}
 .swiper-button-next{
-    margin-right: 300px;
+   position: absolute;
+   top: 3370px;
+   right: 280px;
 }
 .swiper-button-prev{
-    margin-left: 275px;
+    position: absolute;
+    top: 3380px;
+    left: 280px;
 }
 .phone-img{
     margin-left: -25px;
 }
 .swiper-button-prev,
 .swiper-button-next{
+    display: flex;
+    margin: 0 auto;
     height: 30px;
     width: 30px;
+}
+@media (max-width:1890px){
+    .swiper-button-next{
+        right: 230px;
+     }
+     .swiper-button-prev{
+         left: 230px;
+     }
+}
+@media (max-width:1800px){
+    .swiper-button-next{
+        right: 200px;
+     }
+     .swiper-button-prev{
+         left: 200px;
+     }
+}
+@media (max-width:1740px){
+    .swiper-button-next{
+        right: 170px;
+     }
+     .swiper-button-prev{
+         left: 170px;
+     }
+}
+@media (max-width:1670px){
+    .swiper-button-next{
+        right: 130px;
+    }
+    .swiper-button-prev{
+        left: 130px;
+    }
+}
+@media (max-width:1580px){
+    .swiper-button-next{
+        right: 90px;
+     }
+     .swiper-button-prev{
+         left: 90px;
+     }
+}
+@media (max-width:1500px){
+    .swiper-button-next{
+        right: 40px;
+     }
+     .swiper-button-prev{
+         left: 40px;
+     }
+}
+@media (max-width:1400px){
+    .swiper-button-next{
+        right: 20px;
+        top:2830px;
+     }
+     .swiper-button-prev{
+         left: 20px;
+         top:2830px;
+     }
 }
 @media (max-width:1400px){
     .heading-red{
@@ -519,16 +589,70 @@ body{
     .logo{
         margin-right: 50px;
     }
-    .swiper-button-next, .swiper-button-prev{
-        margin-top: 2335px;
+}
+@media (max-width:1110px){
+    .card-img{
+        width: 350px;
     }
 }
-@media (max-width:1800px){
-    .swiper-button-next{
-        margin-right: 50px;
+@media (max-width:900px){
+    .card-img{
+        width: 250px;
     }
-    .swiper-button-prev{
-        margin-left: 0px;
+    .main-heading--red{
+        font-size: 30px;
+    }
+    .view{
+        left: 10%;
+    }
+}
+@media (max-width:640px){
+    body{
+        font-size: 12px;
+    }
+    .hero,
+    .about,
+    .clothes,
+    .partners,
+    .delivery,
+    .pay,
+    .footer{
+        width: 100vh;
+    }
+    .header{
+        width: 100vh;
+    }
+    .view{
+        width: 150px;
+    }
+    .btn-text{
+        font-size: 13px;
+        line-height: 12px;
+    }
+    .card-img{
+        width: 200px;
+    }
+    .basket{
+        display: none;
+    }
+    .head-img{
+        display: none;
+    }
+    .phone-number{
+        display: none;
+    }
+    .phone-img{
+        display: none;
+    }
+    .img-facebook{
+        display: none;
+    }
+    .img-instagram{
+        display: none;
+    }
+    .trans-ru,
+    .trans-lat{
+        display: none;
     }
 }
 @media (min-width:1400px){

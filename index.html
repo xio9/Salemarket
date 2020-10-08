@@ -36,8 +36,10 @@
                     LAT
                 </span>
                 <!-- /trans-lat -->
-                <img class="img-loupe" src="img/loupe.svg" alt="loupe">
-                <img class="img-cart" src="img/cart.svg" alt="cart">
+                <div class="head-img">
+                    <img class="img-loupe" src="img/loupe.svg" alt="loupe">
+                    <img class="img-cart" src="img/cart.svg" alt="cart">
+                </div>
                 <div class="basket">
                     <h2 class="heading-red">Корзина</h2>
                     <span class="heading-normal">2 товара</span>
@@ -152,11 +154,12 @@
             </div>
             <!-- /reg-head -->
             <div class="photos">Фото клиентов</div>
+            <div>
             <div class="clothes-wrap">
+                <!-- Slider main container -->
                 <!-- If we need navigation buttons -->
                 <img class="swiper-button-prev" src="img/prev.svg" alt="">
                 <img class="swiper-button-next" src="img/next.svg" alt="">
-                <!-- Slider main container -->
                 <div class="swiper-container clothes-slider">
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
@@ -212,6 +215,7 @@
             </div>
         </div>
         <!-- /clothes-wrap -->
+    
     </div>
     <!-- /container -->
     </section>
@@ -236,7 +240,7 @@
                     <img src="img/note.jpg" alt="notebook">
                     <div class="short-info">
                         <div class="short-text">Продажа Автозапчастей <br>Ремонт авто <br> Подбор и проверка </div>
-                        <a href="http://www.nboutlet.eu/" class="btn-text short">Перейти</a>
+                        <a href="http://bpauto.lv/" class="btn-text short">Перейти</a>
                     </div>
                     <!-- /short-info -->
                 </div>
@@ -307,6 +311,11 @@
                     <a href="#" class="links">info@salemarket.eu</a>
                 </div>
                 <!-- /footer-group -->
+                <form class="footer-group">
+                    <h5 class="light-heading">Подписаться на уведомления</h5>
+                    <input type="email" class="form form-text" placeholder="Ваш E-mail"></input>
+                    <button type="reset" class="red-btn">Подписаться</button>
+                </form>
             </div>
             <!-- /footer-wrap -->
             <!-- /footer-group -->
@@ -321,11 +330,6 @@
             <!-- /tabs -->
         </div>
         <!-- /container -->
-        <div class="footer-group-col">
-            <h5 class="light-heading">Подписаться на уведомления</h5>
-            <input type="email" class="form form-text" placeholder="Ваш E-mail"></input>
-            <button class="red-btn">Подписаться</button>
-        </div>
     </footer>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="scripts/main.js"></script>
