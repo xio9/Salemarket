@@ -712,7 +712,7 @@ body{
         font-size: 12px;
     }
     .form-inputs{
-        width: 50%;
+        width: 40%;
         position: absolute;
         margin-left: 250px;
         margin-top: 130px;
@@ -722,6 +722,14 @@ body{
     }
     .footer-group{
         margin-right: 0;
+    }
+    .red-btn,
+    .form{
+        width: 70%;
+        font-size: 12px;
+    }
+    .footer-imgs{
+        display: flex;
     }
 }
 @media (max-width: 500px){
