@@ -687,10 +687,13 @@ body{
     }
     .view{
         width: 150px;
+        height: 40px;
     }
     .btn-text{
         font-size: 13px;
         line-height: 12px;
+        padding: 0;
+        padding-top: 16px;
     }
     .card-img{
         width: 200px;
