@@ -149,18 +149,20 @@ body{
     left: 0;
     right: 0;
 }
-.view{
+.button-all{
+    padding: 13px 30px 13px 30px;
     display: block;
     position: absolute;
     bottom: 10%;
-    width: 192px;
-    height: 52px;
+    max-width: 200px;
+    max-height: 52px;
     background: #F9F9F9;
     border-radius: 10px;
     left: 30%;
+    outline: none;
+    border: none;
 }
 .btn-text{
-    padding: 13px 37px 13px 36px;
     font-family: Muller;
     font-style: normal;
     font-weight: bold;
@@ -523,7 +525,7 @@ body{
 }
 .form-text:focus::-webkit-input-placeholder {
     color: transparent
-  }
+}
   
   :focus::-moz-placeholder {
     color: transparent
@@ -692,8 +694,10 @@ body{
     .btn-text{
         font-size: 13px;
         line-height: 12px;
-        padding: 0;
-        padding-top: 16px;
+    }
+    .button-all{
+        left: 20%;
+        padding: 5px 15px 5px 15px;
     }
     .card-img{
         width: 200px;
