@@ -1,7 +1,8 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 @font-face {
     font-family: 'Muller';
@@ -28,12 +29,20 @@ body{
 .header{
     margin-top: 50px;
     margin-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .phone-number{
     display: block;
@@ -68,6 +77,8 @@ body{
     margin-right: 100px;
 }
 .img-logo{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 10px;
 }
@@ -106,15 +117,23 @@ body{
     margin-right: 15px;
 }
 .card-wrap{
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .card{
     position: relative;
     margin: 0 50px 60px 0;
-    flex-basis: 45%;
+    -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
 }
 .main-heading--red{
     display: block;
@@ -178,12 +197,19 @@ body{
     margin-bottom: 50px;
 }
 .about-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .about-wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 .about-heading--red{
     font-family: Muller;
@@ -235,9 +261,14 @@ body{
     padding-bottom: 75px;
 }
 .clothes-wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .clothes-box{
     margin-left: 15px;
@@ -280,29 +311,47 @@ body{
     margin-bottom: 60px;
 }
 .partners-wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .partners-box--long{
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: relative;
     margin-right: 30px;
 }
 .partners-box--short{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: relative;
 }
 .long-info{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: absolute;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     padding: 280px 30px 35px 30px;
 }
 .short-info{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: absolute;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 170px 41px 112px 41px;
 }
 .long-text{
@@ -325,6 +374,8 @@ body{
     color: #FFFFFF;
 }
 .long{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background: #F9F9F9;
     border-radius: 10px;
@@ -355,8 +406,12 @@ body{
     margin-bottom: 60px;
 }
 .delivery-wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .omniva{
     margin-right: 115px;
@@ -375,8 +430,12 @@ body{
     margin-bottom: 40px;
 }
 .pay-wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .pay-img{
     margin: auto;
@@ -389,12 +448,21 @@ body{
     margin: 0;
 }
 .footer-wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .footer-group{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-right: 70px;
 }
 .footer-group-col{
@@ -432,8 +500,12 @@ body{
     color: #FFFFFF;
 }
 .tabs{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-top: 50px;
 }
 .footer-logo{
@@ -500,6 +572,8 @@ body{
 }
 .swiper-button-prev,
 .swiper-button-next{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
     height: 30px;
@@ -569,7 +643,8 @@ body{
     }
     .card{
         margin: 0 20px 20px 0;
-        flex-basis: 0%;
+        -ms-flex-preferred-size: 0%;
+            flex-basis: 0%;
     }
     .card-img{
         width: 450px;
@@ -649,7 +724,8 @@ body{
         font-size: 22px;
     }
     .about-wrap{
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .about-box{
         margin-bottom: 20px;
@@ -664,7 +740,8 @@ body{
         font-size: 10px;
     }
     .partners-wrap{
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .shop-img{
         width: 400px;
@@ -729,6 +806,8 @@ body{
         font-size: 12px;
     }
     .footer-imgs{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 }
