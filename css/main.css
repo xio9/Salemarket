@@ -610,18 +610,6 @@ body{
     body{
         font-size: 12px;
     }
-    .hero,
-    .about,
-    .clothes,
-    .partners,
-    .delivery,
-    .pay,
-    .footer{
-        width: 100vh;
-    }
-    .header{
-        width: 100vh;
-    }
     .view{
         width: 150px;
     }
@@ -654,6 +642,89 @@ body{
     .trans-lat{
         display: none;
     }
+    .main-heading--red {
+        font-size: 20px;
+    }
+    .about-heading--red{
+        font-size: 22px;
+    }
+    .about-wrap{
+        flex-wrap: wrap;
+    }
+    .about-box{
+        margin-bottom: 20px;
+    }
+    .clothes-img{
+        width: 75px;
+    }
+    .clothes-heading{
+        font-size: 14px;
+    }
+    .clothes-text{
+        font-size: 10px;
+    }
+    .partners-wrap{
+        flex-wrap: wrap;
+    }
+    .shop-img{
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    .note-img{
+        width: 300px;
+    }
+    .long-info{
+        padding: 0;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    .long-text{
+        font-size: 12px;
+    }
+    .omniva{
+        width: 40%;
+    }
+    .work-img{
+        width: 40%;
+    }
+    .swiper-button-next {
+        right: 0px;
+        top: 1750px;
+    }
+    .swiper-button-prev {
+        left: 0px;
+        top: 1750px;
+    }
+    .short-text{
+        font-size: 16px;
+    }
+    .short-info{
+        padding: 100px 41px 112px 41px;
+    }
+    .pay-img{
+        margin: 0;
+        width: 30%;
+    }
+    .links{
+        font-size: 10px;
+    }
+    .light-heading{
+        font-size: 12px;
+    }
+    .form-inputs{
+        width: 50%;
+        position: absolute;
+        margin-left: 250px;
+        margin-top: 130px;
+    }
+}
+@media (max-width: 450px){
+.card-img {
+    width: 139px;
+}
+.view {
+    width: 100px;
+}
 }
 @media (min-width:1400px){
     .footer-group-col{
