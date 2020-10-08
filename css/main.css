@@ -717,7 +717,19 @@ body{
         margin-left: 250px;
         margin-top: 130px;
     }
+    .card{
+        margin: 0;
+    }
+    .footer-group{
+        margin-right: 0;
+    }
 }
+@media (max-width: 500px){
+    .card-img{
+        width: 150px;
+    }
+}
+
 @media (max-width: 450px){
 .card-img {
     width: 139px;
