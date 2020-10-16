@@ -149,6 +149,9 @@ body{
     left: 0;
     right: 0;
 }
+button{
+    border: none;
+}
 .button-all{
     padding: 13px 30px 13px 30px;
     display: block;
@@ -161,6 +164,10 @@ body{
     left: 30%;
     outline: none;
     border: none;
+}
+#btnLeft{
+    position: relative;
+    left: 40px;
 }
 .btn-text{
     font-family: Muller;
@@ -313,22 +320,31 @@ body{
     margin-bottom: 60px;
 }
 .partners-wrap{
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
+            justify-content: space-between;
 }
 .partners-box--long{
+    background: url('../img/shop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
+    height: 400px;
+    width: 68%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     position: relative;
-    margin-right: 30px;
 }
 .partners-box--short{
+    background: url('../img/note.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 28%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -345,7 +361,13 @@ body{
             flex-direction: row;
     padding: 280px 30px 35px 30px;
 }
+.button-all a {
+    text-decoration: none;
+    color: #000000;
+}
 .short-info{
+    position: relative;
+    top: -35px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -382,18 +404,10 @@ body{
     background: #F9F9F9;
     border-radius: 10px;
     margin-left: 25px;
-    height: 45px;
+    max-height: 45px;
     margin-top: 17px;
-    width: 200px;
+    max-width: 200px;
     padding-left: 60px;
-}
-.short{
-    margin-top: 30px;
-    background: #F9F9F9;
-    border-radius: 10px;
-    width: 200px;
-    margin-left: 50px;
-    height: 45px;
 }
 .delivery{
     padding-top: 50px;
@@ -450,6 +464,7 @@ body{
     margin: 0;
 }
 .footer-wrap{
+    flex-wrap: wrap;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -560,9 +575,9 @@ body{
     border: none;
 }
 .swiper-button-next{
-   position: absolute;
-   top: 3370px;
-   right: 280px;
+    position: absolute;
+    top: 3370px;
+    right: 280px;
 }
 .swiper-button-prev{
     position: absolute;
@@ -581,29 +596,252 @@ body{
     height: 30px;
     width: 30px;
 }
+.shirts-nav{
+    justify-content: left;
+    margin-bottom: 26px;
+}
+.nav--links{
+    text-decoration: none;
+    margin-right: 70px;
+    color: rgba(51, 51, 51, 0.2);
+    font-family: Muller;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 143.69%;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+.nav--links:hover{
+    color: #333333;
+    border-bottom: 4px solid #D02B38;
+    transition: all 0.3s ease-in;
+}
+.shirts{
+    margin-left: 30%;
+    flex-basis: 50%;
+    width: 80%;
+}
+.shirts--container{
+    width: 100%;
+    margin: auto;
+}
+.shirts--wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shirts--card{
+    margin-right: 25px;
+    display: flex;
+    width: 200px;
+    height: 400px;
+    flex-direction: column;
+    margin-bottom: 17px;
+}
+.shirts--card:hover{
+    cursor: pointer;
+    border: 3px solid #D02B38;
+}
+.shirts--info{
+    text-align: center;
+    background: #F9F9F9;
+}
+.shirts--img{
+    position: relative;
+}
+.shirts--img--text{
+    display: flex;
+    z-index: 10;
+    position: absolute;
+    margin-top: 15px;
+}
+.shirts--img--text__newText{
+    margin-left: -53px;
+    margin-top: 5px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 143.69%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.shirts--info__heading{
+    padding-top: 10px;
+    margin-bottom: 6px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.shirts--info__text{
+    margin-bottom: 6px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 143.69%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.5);
+}
+.shirts--info__number{
+    margin-bottom: 8px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143.69%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+.shirts--info__typeBlue{
+    margin-bottom: 5px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143.69%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #2B6DD0;
+}
+.shirts--info__typeRed{
+    margin-bottom: 5px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143.69%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #D02B38;
+}
+.shirts--info__price,
+.shirts--info__priceRed,
+.shirts--info__priceNone{
+    font-family: Muller;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 143.69%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.shirts--info--prices{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.shirts--info__priceRed{
+    color: #D02B38;
+    margin-right: 17px;
+}
+.shirts--info__priceNone{
+    text-decoration: line-through;
+}
+.delivery-car{
+    background: #F9F9F9;
+}
+.delivery--car--wrap{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.delivery--car--wrap{
+    display: flex;
+    align-items: center;
+}
+.delivery--car--photo{
+    margin-right: 25px;
+}
+.delivery--car--heading{
+    margin-right: 80px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 143.69%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #333333;
+}
+.delivery--car--img1{
+    background: url("../img/omniva.png") no-repeat;
+    width: 200px;
+    height: 40px;
+    margin-right: 50px;
+}
+.delivery--car--img2{
+    background: url("../img/work-are.png") no-repeat;
+    width: 200px;
+    height: 40px;
+}
+.pink{
+    background: rgba(208, 43, 56, 0.5);
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+.pink--wrap{
+    display: flex;
+    align-items: center;
+}
+.pink--img{
+    background: url("../img/!.svg") no-repeat;
+    width: 200px;
+    height: 100px;
+    margin-right: 50px;
+}
+.pink--text{
+    font-family: Muller;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 143.69%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+@media (max-width:1280px){
+    .short-info{
+        top: -66px;
+        left: -10px;
+    }
+}
 @media (max-width:1890px){
     .swiper-button-next{
         right: 230px;
-     }
-     .swiper-button-prev{
-         left: 230px;
-     }
+    }
+    .swiper-button-prev{
+        left: 230px;
+    }
 }
 @media (max-width:1800px){
     .swiper-button-next{
         right: 200px;
-     }
-     .swiper-button-prev{
-         left: 200px;
-     }
+    }
+    .swiper-button-prev{
+        left: 200px;
+    }
 }
 @media (max-width:1740px){
     .swiper-button-next{
         right: 170px;
-     }
-     .swiper-button-prev{
-         left: 170px;
-     }
+    }
+    .swiper-button-prev{
+        left: 170px;
+    }
+}
+@media (max-width:1250px){
+    .long-info{
+        padding-top: 180px;
+    }
+
 }
 @media (max-width:1670px){
     .swiper-button-next{
@@ -613,30 +851,48 @@ body{
         left: 130px;
     }
 }
+@media (max-width:1120px){
+    .long-info{
+        left: 20px;
+    }
+    .swiper-button-next{
+        margin-top: -485px;
+    }
+    .swiper-button-prev{
+        margin-top: -485px;
+    }
+}
 @media (max-width:1580px){
     .swiper-button-next{
         right: 90px;
-     }
-     .swiper-button-prev{
-         left: 90px;
-     }
+    }
+    .swiper-button-prev{
+        left: 90px;
+    }
 }
 @media (max-width:1500px){
     .swiper-button-next{
         right: 40px;
      }
      .swiper-button-prev{
-         left: 40px;
+        left: 40px;
      }
 }
-@media (max-width:1400px){
+@media (max-width:860px){
+    .red-btn,
+    .form{
+        width: 100%;
+        font-size: 12px;
+    }
+}
+@media (max-width:800px){
     .swiper-button-next{
         right: 20px;
-        top:2830px;
+        top:2530px;
      }
      .swiper-button-prev{
-         left: 20px;
-         top:2830px;
+        left: 20px;
+        top:2530px;
      }
 }
 @media (max-width:1400px){
@@ -682,8 +938,18 @@ body{
     .view{
         left: 10%;
     }
+    .button-all{
+        left: 20%;
+        font-size: 13px;
+    }
 }
 @media (max-width:640px){
+    .partners-wrap{
+        flex-wrap: wrap;
+    }
+    #btnLeft{
+        left: 0;
+    }
     body{
         font-size: 12px;
     }
@@ -697,7 +963,6 @@ body{
     }
     .button-all{
         left: 20%;
-        padding: 5px 15px 5px 15px;
     }
     .card-img{
         width: 200px;
@@ -746,12 +1011,8 @@ body{
     .clothes-text{
         font-size: 10px;
     }
-    .partners-wrap{
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    }
     .shop-img{
-        width: 400px;
+        width: 300px;
         margin-bottom: 20px;
     }
     .note-img{
@@ -759,7 +1020,7 @@ body{
     }
     .long-info{
         padding: 0;
-        margin-top: 10px;
+        margin-top: 200px;
         margin-left: 40px;
     }
     .long-text{
@@ -773,11 +1034,11 @@ body{
     }
     .swiper-button-next {
         right: 0px;
-        top: 1750px;
+        top: 2150px;
     }
     .swiper-button-prev {
         left: 0px;
-        top: 1750px;
+        top: 2150px;
     }
     .short-text{
         font-size: 16px;
@@ -793,10 +1054,9 @@ body{
         font-size: 10px;
     }
     .light-heading{
-        font-size: 12px;
+        font-size: 10px;
     }
     .form-inputs{
-        width: 40%;
         position: absolute;
         margin-left: 250px;
         margin-top: 130px;
@@ -804,12 +1064,9 @@ body{
     .card{
         margin: 0;
     }
-    .footer-group{
-        margin-right: 0;
-    }
     .red-btn,
     .form{
-        width: 70%;
+        width: 80%;
         font-size: 12px;
     }
     .footer-imgs{
