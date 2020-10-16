@@ -813,11 +813,10 @@ a{
 /* </general> */
 .shop__items{
     position: absolute;
-    left: 10%;
+    left: 20%;
 }
 /* <shop__item-nav> */
 .shop__item-nav{
-    width: 20%;
     min-width: 175px;
 }
 ul,
@@ -828,16 +827,16 @@ li{
 }
 .menu {
     padding:0;
-  }
-  .menu__head{
+}
+.menu__head{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     text-transform: uppercase;
     padding-bottom: 5px;
-  }
+}
 .menu__title-1{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -850,7 +849,7 @@ li{
 }
 .menu__title-2{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 143.69%;
     letter-spacing: 0.02em;
     color: rgba(0, 0, 0, 0.3) !important;
@@ -906,7 +905,7 @@ li{
 /* </checkbox> */
 .shop__item-title{
     font-weight: bold;
-    font-size: 32px;
+    font-size: 28px;
     margin-bottom: 25px;
     padding-bottom: 15px;
 }
@@ -1078,6 +1077,9 @@ input[type=range]::-webkit-slider-thumb {
     }
 }
 @media (max-width:1400px){
+    .shop__items{
+        left: 17%;
+    }
     .heading-red{
         font-size: 12px;
     }
@@ -1110,12 +1112,12 @@ input[type=range]::-webkit-slider-thumb {
         margin-bottom: 50px;
     }
 }
-@media (max-width:1110px){
-    .nav--links{
-        font-size: 20px;
+@media (max-width:1250px){
+    .img-instagram{
+        margin-right: 20px;
     }
-    .card-img{
-        width: 350px;
+    .nav--links{
+        font-size: 24px;
     }
     .shirts--card{
         width: 125px;
@@ -1123,7 +1125,67 @@ input[type=range]::-webkit-slider-thumb {
         margin-bottom: 100px;
     }
 }
+@media (max-width:1110px){
+    .container{
+        width: 100%;
+    }
+    .shirts--card{
+        width: 125px;
+        height: 300px;
+        margin-bottom: 100px;
+    }
+    .shop__items{
+        left: 12%;
+    }
+    .nav--links{
+        font-size: 20px;
+    }
+    .card-img{
+        width: 350px;
+    }
+}
+@media (max-width:930px){
+    .shirts--card{
+        margin-right: 100px;
+    }
+}
 @media (max-width:900px){
+    .pink--text{
+        text-align: center;
+        font-size: 18px;
+    }
+    .delivery--car--wrap{
+        flex-direction: column;
+        padding-top: 100px;
+    }
+    .delivery--car--img1{
+        margin-bottom: 50px;
+    }
+    .delivery--car--heading{
+        font-size: 26px;
+    }
+    .shirts--info__heading{
+        font-size: 16px;
+    }
+    .shirts--info__text{
+        font-size: 10px;
+    }
+    .shirts--info__number{
+        font-size: 12px;
+    }
+    .shirts--info__typeBlue{
+        font-size: 12px;
+    }
+    .shirts--info__price, .shirts--info__priceRed, .shirts--info__priceNone{
+        font-size: 18px;
+    }
+    .trans-ru,
+    .trans-lat{
+        display: none;
+    }
+    .nav--links{
+        margin-right: 20px;
+    }
     .shirts--card{
         margin-right: 100px;
     }
@@ -1143,8 +1205,48 @@ input[type=range]::-webkit-slider-thumb {
         left: 20%;
         font-size: 13px;
     }
+    .basket{
+        display: none;
+    }
+    .head-img{
+        display: none;
+    }
+    .phone-number{
+        display: none;
+    }
+    .phone-img{
+        display: none;
+    }
+    .img-facebook{
+        display: none;
+    }
+    .img-instagram{
+        display: none;
+    }
+}
+@media (max-width:700px){
+    .pink--img{
+        display: none;
+    }
+    .logo{
+        margin-right: -50px;
+    }
+    .shirts--card{
+        margin-right: 50px;
+    }
+    .nav--links{
+        font-size: 16px;
+    }
 }
 @media (max-width:640px){
+    .pink--img{
+        width: 130px;
+        height: 70px;
+        margin-right: 30px;
+    }
+    .delivery--car--heading{
+        font-size: 22px;
+    }
     .partners-wrap{
         flex-wrap: wrap;
     }
@@ -1167,24 +1269,6 @@ input[type=range]::-webkit-slider-thumb {
     }
     .card-img{
         width: 200px;
-    }
-    .basket{
-        display: none;
-    }
-    .head-img{
-        display: none;
-    }
-    .phone-number{
-        display: none;
-    }
-    .phone-img{
-        display: none;
-    }
-    .img-facebook{
-        display: none;
-    }
-    .img-instagram{
-        display: none;
     }
     .trans-ru,
     .trans-lat{
@@ -1276,9 +1360,45 @@ input[type=range]::-webkit-slider-thumb {
         display: flex;
     }
 }
+@media (max-width: 540px){
+    .pink--img{
+        max-width: 150px;
+        height: 80px;
+        margin-right: 30px;
+    }
+    .pink--text{
+        font-size: 14px;
+    }
+    .shirts--card{
+        margin-right: 20px;
+    }
+}
+@media (max-width: 500px){
+    .shirts--card{
+        margin-right: 25px;
+        width: 100px;
+        height: 200px;
+    }
+}
 @media (max-width: 500px){
     .card-img{
         width: 150px;
+    }
+    .nav--links{
+        font-size: 12px;
+    }
+}
+@media (max-width: 400px){
+    .shirts{
+        margin-left: 20%;
+    }
+    .delivery--car--heading{
+        font-size: 18px;
+    }
+    .pink--img{
+        width: 100px;
+        height: 60px;
+        margin-right: 30px;
     }
 }
 
@@ -1288,6 +1408,14 @@ input[type=range]::-webkit-slider-thumb {
 }
 .view {
     width: 100px;
+}
+@media (max-width: 350px){
+    .shirts--card{
+        margin-right: 10px;
+    }
+    .nav--links{
+        font-size: 10px;
+    }
 }
 }
 @media (min-width:1400px){
