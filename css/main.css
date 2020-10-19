@@ -1634,10 +1634,12 @@ li{
 @media (max-width: 500px){
     .card-img{
         width: 150px;
-        height: 150px;
     }
     .nav--links{
         font-size: 12px;
+    }
+    .shirts--img{
+        height: 150px;
     }
 }
 @media (max-width: 400px){
