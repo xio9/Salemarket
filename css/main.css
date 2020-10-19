@@ -1036,6 +1036,11 @@ li{
         top:2530px;
     }
 }
+@media (min-width:1400px){
+    .shirts--wrap{
+        padding-right: 50px;
+    }
+}
 @media (max-width:1400px){
     .shirts--wrap{
         justify-content: center;
