@@ -610,7 +610,7 @@ button{
 }
 .nav--links{
     text-decoration: none;
-    margin-right: 70px;
+    margin-right: 40px;
     color: rgba(51, 51, 51, 0.2);
     font-family: Muller;
     font-style: normal;
@@ -633,7 +633,7 @@ button{
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
 }
 .shirts--card{
     margin-right: 25px;
@@ -842,9 +842,6 @@ a{
 }
 /* </general> */
 .shop__items{
-    position: absolute;
-    top: 22%;
-    left: 15%;
 }
 /* <shop__item-nav> */
 .shop__item-nav{
@@ -1040,8 +1037,8 @@ li{
     }
 }
 @media (max-width:1400px){
-    .shop__items{
-        left: 17%;
+    .shirts--wrap{
+        justify-content: center;
     }
     .heading-red{
         font-size: 12px;
@@ -1097,19 +1094,12 @@ li{
         height: 300px;
         margin-bottom: 100px;
     }
-    .shop__items{
-        left: 12%;
-    }
+
     .nav--links{
         font-size: 20px;
     }
     .card-img{
         width: 350px;
-    }
-}
-@media (max-width:930px){
-    .shirts--card{
-        margin-right: 100px;
     }
 }
 @media (max-width:900px){
@@ -1152,12 +1142,6 @@ li{
     .nav--links{
         margin-right: 20px;
     }
-    .shirts--card{
-        margin-right: 100px;
-    }
-    .shop__items{
-        display: none;
-    }
     .card-img{
         width: 250px;
     }
@@ -1196,9 +1180,6 @@ li{
     }
     .logo{
         margin-right: -50px;
-    }
-    .shirts--card{
-        margin-right: 50px;
     }
     .nav--links{
         font-size: 16px;
