@@ -70,6 +70,10 @@ body{
 .img-facebook{
     margin-right: 25px;
 }
+.img-facebook:hover,
+.img-instagram:hover{
+    cursor: pointer;
+}
 .img-instagram{
     margin-right: 100px;
 }
@@ -652,7 +656,7 @@ button{
 .shirts--card:hover{
     cursor: pointer;
     border: 3px solid #D02B38;
-    transition: all 0.25s ease-in;
+    transition: all 0.15s linear;
 }
 .shirts--info{
     text-align: center;
@@ -1369,6 +1373,9 @@ li{
 .menu__title-1Pr:hover{
     color: #D02B38;
 }
+.product{
+    padding-bottom: 50px;
+}
 .product--info{
     margin-left: 60px;
 }
@@ -1456,7 +1463,7 @@ li{
 .product--tabs{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 52px;
+    margin-bottom: 48px;
 }
 .size--tabs{
     padding-top: 8px;
@@ -1477,13 +1484,14 @@ li{
     color: rgba(0, 0, 0, 0.3);
 }
 .size--tabs:hover{
+    color: #000000;
     cursor: pointer;
-    border: 3px solid #D02B38;
-    transition: all 0.15s linear;
+    border: 1px solid #D02B38;
+    transition: all 0.3s linear;
 }
 .product--lilInfo{
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .product__number{
     margin-right: 21px;
@@ -1547,6 +1555,74 @@ li{
 .cart__img{
     margin-right: 10px;
 }
+.discount{
+    background: #F5F5F5;
+}
+.discount--text{
+    padding-top: 44px;
+    padding-bottom: 44px;
+    text-align: center;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 143.69%;
+    letter-spacing: 0.02em;
+    color: #333333;
+
+}
+.review--wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.review--heading{
+    font-family: Muller;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 143.69%;
+    letter-spacing: 0.02em;
+    color: #333333;
+}
+.review--inputs__1,
+.review--inputs__2,
+.review--inputs__3{
+    outline-color: #DD1936;
+    text-align: center;
+    margin-bottom: 15px;
+    display: block;
+    width: 500px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 143.69%;
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 0.3);
+}
+.review--inputs__1,
+.review--inputs__2{
+    height: 60px;
+}
+.review--inputs__3{
+    height: 100px;
+}
+.review--stars{
+    display: flex;
+    align-items: center;
+}
+.review--stars--wrap{
+    display: flex;
+    margin-left: 50px;
+}
+.review--stars--wrap__imgs{
+    background-image: url("../img/StarReview.svg");
+    background-size: cover;
+    width: 38px;
+    height: 38px;
+    margin-right: 4px;
+}
 @media (max-width: 500px){
     .shirts--card{
         margin-right: 25px;
@@ -1558,6 +1634,7 @@ li{
 @media (max-width: 500px){
     .card-img{
         width: 150px;
+        height: 150px;
     }
     .nav--links{
         font-size: 12px;
