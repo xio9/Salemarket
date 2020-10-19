@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // drop down menu
-    // drop down menu
     function initMenu() {
         $(".sub-menu").hide();
         $(".current_page_item .sub-menu").show();
