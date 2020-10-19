@@ -416,7 +416,7 @@
                 <div class="review--inputs">
                     <input type="text" class="review--inputs__1" placeholder="Ваше имя">
                     <input type="text" class="review--inputs__2" placeholder="Номер артикула">
-                    <input type="text" class="review--inputs__3" placeholder="Ваш комментарий">
+                    <textarea type="text" class="review--inputs__3" placeholder="Ваш комментарий"></textarea>
                 </div>
                 <!-- /review-inputs -->
                 <div class="review--stars">
@@ -431,8 +431,8 @@
                 </div>
                 <!-- /review--stars -->
                 <div class="review--submit">
-                    <button class="review--submit__upload"></button>
-                    <button class="review--submit__send"></button>
+                    <button class="review--submit__upload"><img src="/img/list.svg" class="upload__list" alt="">Загрузите фото</button>
+                    <button class="review--submit__send">Отправить</button>
                 </div>
                 <!-- /review--submit -->
             </div>
@@ -441,6 +441,240 @@
         <!-- .container -->
     </section>
     <!-- /review -->
+    <section class="client">
+        <div class="container">
+            <h1 class="review--heading">Отзыв клиента о товаре</h1>
+            <div class="client--card">
+                <h2 class="client--name">Адрей Т.</h2>
+                <div class="client--stars--wrap">
+                    <div class="client--stars--wrap__imgs"></div>
+                    <div class="client--stars--wrap__imgs"></div>
+                    <div class="client--stars--wrap__imgs"></div>
+                    <div class="client--stars--wrap__imgs"></div>
+                    <div class="client--stars--wrap__imgs"></div>
+                </div>
+                <!-- /client--stars--wrap -->
+                <div class="client--span">BM-153</div>
+                <div class="client--text">Это давно установленный факт, что читатель будет отвлекаться на читаемое содержание...</div>
+                <div class="client--ph">
+                    <div class="client--ph__vest"></div>
+                    <div class="client--ph__vest"></div>
+                </div>
+                <!-- /client--ph -->
+            </div>
+            <!-- /client--card -->
+            <div class="client--card">
+                <h2 class="client--name">Анастасия Б.</h2>
+                <div class="client--stars--wrap">
+                    <div class="client--stars--wrap__imgs"></div>
+                    <div class="client--stars--wrap__imgs"></div>
+                    <div class="client--stars--wrap__imgs"></div>
+                    <div class="client--stars--wrap__imgs"></div>
+                    <div class="client--stars--wrap__imgs"></div>
+                </div>
+                <!-- /client--stars--wrap -->
+                <div class="client--span">BM-153</div>
+                <div class="client--text">Это давно установленный факт, что читатель будет отвлекаться на читаемое содержание.
+                    Хороший товар, ношу уже несколько месяцев. Очень удобный</div>
+            </div>
+            <!-- /client--card -->
+            <div class="client--card">
+                <h2 class="client--name">Татьяна Д.</h2>
+                <div class="client--stars--wrap">
+                    <div class="client--stars--wrap__imgs"></div>
+                    <div class="client--stars--wrap__imgs"></div>
+                    <div class="client--stars--wrap__imgs"></div>
+                    <div class="client--stars--wrap__imgs"></div>
+                    <div class="client--stars--wrap__imgs"></div>
+                </div>
+                <!-- /client--stars--wrap -->
+                <div class="client--span">BM-153</div>
+                <div class="client--text client--text__small">Это давно установленный факт, что читатель будет отвлекаться на читаемое содержание...</div>
+                <div class="client--ph">
+                    <div class="client--ph__shirt"></div>
+                    <div class="client--ph__shirt"></div>
+                </div>
+                <!-- /client--ph -->
+            </div>
+            <!-- /client--card -->
+        </div>
+        <!-- /container -->
+    </section>
+    <!-- /client -->
+    <section class="others">
+        <div class="container">
+            <h1 class="review--heading">Другие товары</h1>
+            <div class="shirts--wrap">
+                <div class="shirts--card">
+                    <img src="./img/dress.jpg" alt="omo shirt" class="shirts--img">
+                    <div class="shirts--info">                        
+                        <div class="shirts--info__heading">Oma</div>
+                        <div class="shirts--info__text">Женское платье</div>
+                        <div class="shirts--info__number">BM-153</div>
+                        <div class="shirts--info__typeBlue">Б/У товар</div>
+                        <div class="shirts--info--prices">
+                            <div class="shirts--info__priceRed">€62</div>
+                            <div class="shirts--info__priceNone">€52</div>
+                        </div>
+                    </div>
+                    <!-- /shirts-info -->
+                </div>
+                <!-- /shirts-card -->
+                <div class="shirts--card">
+                    <div class="shirts--img--text">
+                        <img src="./img/sold.svg" alt="" class="shirts--img__sold">
+                        <div class="shirts--img--text__newText">SOLD</div>
+                    </div>
+                    <img src="./img/shirts.jpg" alt="omo shirt" class="shirts--img">
+                    <div class="shirts--info">                        
+                        <div class="shirts--info__heading">Zara</div>
+                        <div class="shirts--info__text">Мужская рубашка</div>
+                        <div class="shirts--info__number">BM-153</div>
+                        <div class="shirts--info__typeRed">Новый товар</div>
+                        <div class="shirts--info__price">€157</div>
+                    </div>
+                    <!-- /shirts-info -->
+                </div>
+                <!-- /shirts-card -->
+                <div class="shirts--card">
+                    <div class="shirts--img--text">
+                        <img src="./img/new.svg" alt="" class="shirts--img__new">
+                        <div class="shirts--img--text__newText">New</div>
+                    </div>
+                    <img src="./img/shirts.jpg" alt="omo shirt" class="shirts--img">
+                    <div class="shirts--info">                        
+                        <div class="shirts--info__heading">Oma</div>
+                        <div class="shirts--info__text">Мужская рубашка</div>
+                        <div class="shirts--info__number">BM-153</div>
+                        <div class="shirts--info__typeBlue">Б/У товар</div>
+                        <div class="shirts--info__price">€52</div>
+                    </div>
+                    <!-- /shirts-info -->
+                </div>
+                <!-- /shirts-card -->
+                <div class="shirts--card">
+                    <img src="./img/dress.jpg" alt="omo shirt" class="shirts--img">
+                    <div class="shirts--info">                        
+                        <div class="shirts--info__heading">Oma</div>
+                        <div class="shirts--info__text">Женское платье</div>
+                        <div class="shirts--info__number">BM-153</div>
+                        <div class="shirts--info__typeBlue">Б/У товар</div>
+                        <div class="shirts--info--prices">
+                            <div class="shirts--info__priceRed">€62</div>
+                            <div class="shirts--info__priceNone">€52</div>
+                        </div>
+                    </div>
+                    <!-- /shirts-info -->
+                </div>
+                <!-- /shirts-card -->
+                <div class="shirts--card">
+                    <div class="shirts--img--text">
+                        <img src="./img/new.svg" alt="" class="shirts--img__new">
+                        <div class="shirts--img--text__newText">New</div>
+                    </div>
+                    <img src="./img/vest.jpg" alt="omo shirt" class="shirts--img">
+                    <div class="shirts--info">                        
+                        <div class="shirts--info__heading">Oma</div>
+                        <div class="shirts--info__text">Женское пальто</div>
+                        <div class="shirts--info__number">BM-153</div>
+                        <div class="shirts--info__typeRed">Новый товар</div>
+                        <div class="shirts--info__price">€220</div>
+                    </div>
+                    <!-- /shirts-info -->
+                </div>
+                <!-- /shirts-card -->
+            </div>
+            <!-- /shirts-wrap -->
+            <div class="shirts--wrap">
+                <div class="shirts--card">
+                    <img src="./img/dress.jpg" alt="omo shirt" class="shirts--img">
+                    <div class="shirts--info">                        
+                        <div class="shirts--info__heading">Oma</div>
+                        <div class="shirts--info__text">Женское платье</div>
+                        <div class="shirts--info__number">BM-153</div>
+                        <div class="shirts--info__typeBlue">Б/У товар</div>
+                        <div class="shirts--info--prices">
+                            <div class="shirts--info__priceRed">€62</div>
+                            <div class="shirts--info__priceNone">€52</div>
+                        </div>
+                    </div>
+                    <!-- /shirts-info -->
+                </div>
+                <!-- /shirts-card -->
+                <div class="shirts--card">
+                    <div class="shirts--img--text">
+                        <img src="./img/sold.svg" alt="" class="shirts--img__sold">
+                        <div class="shirts--img--text__newText">SOLD</div>
+                    </div>
+                    <img src="./img/shirts.jpg" alt="omo shirt" class="shirts--img">
+                    <div class="shirts--info">                        
+                        <div class="shirts--info__heading">Zara</div>
+                        <div class="shirts--info__text">Мужская рубашка</div>
+                        <div class="shirts--info__number">BM-153</div>
+                        <div class="shirts--info__typeRed">Новый товар</div>
+                        <div class="shirts--info__price">€157</div>
+                    </div>
+                    <!-- /shirts-info -->
+                </div>
+                <!-- /shirts-card -->
+                <div class="shirts--card">
+                    <div class="shirts--img--text">
+                        <img src="./img/new.svg" alt="" class="shirts--img__new">
+                        <div class="shirts--img--text__newText">New</div>
+                    </div>
+                    <img src="./img/shirts.jpg" alt="omo shirt" class="shirts--img">
+                    <div class="shirts--info">                        
+                        <div class="shirts--info__heading">Oma</div>
+                        <div class="shirts--info__text">Мужская рубашка</div>
+                        <div class="shirts--info__number">BM-153</div>
+                        <div class="shirts--info__typeBlue">Б/У товар</div>
+                        <div class="shirts--info__price">€52</div>
+                    </div>
+                    <!-- /shirts-info -->
+                </div>
+                <!-- /shirts-card -->
+                <div class="shirts--card">
+                    <img src="./img/dress.jpg" alt="omo shirt" class="shirts--img">
+                    <div class="shirts--info">                        
+                        <div class="shirts--info__heading">Oma</div>
+                        <div class="shirts--info__text">Женское платье</div>
+                        <div class="shirts--info__number">BM-153</div>
+                        <div class="shirts--info__typeBlue">Б/У товар</div>
+                        <div class="shirts--info--prices">
+                            <div class="shirts--info__priceRed">€62</div>
+                            <div class="shirts--info__priceNone">€52</div>
+                        </div>
+                    </div>
+                    <!-- /shirts-info -->
+                </div>
+                <!-- /shirts-card -->
+                <div class="shirts--card">
+                    <div class="shirts--img--text">
+                        <img src="./img/new.svg" alt="" class="shirts--img__new">
+                        <div class="shirts--img--text__newText">New</div>
+                    </div>
+                    <img src="./img/vest.jpg" alt="omo shirt" class="shirts--img">
+                    <div class="shirts--info">                        
+                        <div class="shirts--info__heading">Oma</div>
+                        <div class="shirts--info__text">Женское пальто</div>
+                        <div class="shirts--info__number">BM-153</div>
+                        <div class="shirts--info__typeRed">Новый товар</div>
+                        <div class="shirts--info__price">€220</div>
+                    </div>
+                    <!-- /shirts-info -->
+                </div>
+                <!-- /shirts-card -->
+            </div>
+            <!-- /shirts-wrap -->
+            <div class="client--link">
+                <a href="index.html" class="client--link__main">Перейти на главную</a>
+                <a href="catalog.html" class="client--link__catalog">Перейти в каталог</a>
+            </div>
+            <!-- /client--buttom -->
+        </div>
+        <!-- /container -->
+    </section>
+    <!-- /others -->
     <footer class="footer">
         <div class="container">
             <div class="footer-wrap">
