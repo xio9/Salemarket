@@ -604,7 +604,8 @@ button{
 .shirts-nav{
     -webkit-box-pack: left;
         -ms-flex-pack: left;
-            justify-content: left;
+            justify-content: center;
+    display: flex;
     margin-bottom: 26px;
 }
 .nav--links{
@@ -625,13 +626,6 @@ button{
     -webkit-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
-}
-.shirts{
-    
-}
-.shirts--container{
-    width: 95%;
-    margin: auto;
 }
 .shirts--wrap{
     display: -webkit-box;
@@ -849,7 +843,8 @@ a{
 /* </general> */
 .shop__items{
     position: absolute;
-    left: 21%;
+    top: 22%;
+    left: 15%;
 }
 /* <shop__item-nav> */
 .shop__item-nav{
