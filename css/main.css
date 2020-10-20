@@ -951,477 +951,6 @@ li{
 .red{
     color: #D02B38;
 }
-@media (max-width:1280px){
-    .short-info{
-        top: -66px;
-        left: -10px;
-    }
-}
-@media (max-width:1890px){
-    .swiper-button-next{
-        right: 230px;
-    }
-    .swiper-button-prev{
-        left: 230px;
-    }
-}
-@media (max-width:1800px){
-    .swiper-button-next{
-        right: 200px;
-    }
-    .swiper-button-prev{
-        left: 200px;
-    }
-}
-@media (max-width:1740px){
-    .swiper-button-next{
-        right: 170px;
-    }
-    .swiper-button-prev{
-        left: 170px;
-    }
-}
-@media (max-width:1250px){
-    .long-info{
-        padding-top: 180px;
-    }
-
-}
-@media (max-width:1670px){
-    .swiper-button-next{
-        right: 130px;
-    }
-    .swiper-button-prev{
-        left: 130px;
-    }
-}
-@media (max-width:1120px){
-    .long-info{
-        left: 20px;
-    }
-    .swiper-button-next{
-        margin-top: -485px;
-    }
-    .swiper-button-prev{
-        margin-top: -485px;
-    }
-}
-@media (max-width:1580px){
-    .swiper-button-next{
-        right: 90px;
-    }
-    .swiper-button-prev{
-        left: 90px;
-    }
-}
-@media (max-width:1500px){
-    .swiper-button-next{
-        right: 40px;
-    }
-    .swiper-button-prev{
-        left: 40px;
-    }
-    body{
-        -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
-        zoom: 0.8; /* Other non-webkit browsers */
-        zoom: 80%; /* Webkit browsers */
-    }
-}
-@media (max-width:860px){
-    .red-btn,
-    .form{
-        width: 100%;
-        font-size: 12px;
-    }
-}
-@media (max-width:800px){
-    .swiper-button-next{
-        right: 20px;
-        top:2530px;
-    }
-    .swiper-button-prev{
-        left: 20px;
-        top:2530px;
-    }
-}
-@media (min-width:1400px){
-    .shirts--wrap{
-        padding-right: 50px;
-    }
-}
-@media (max-width:1400px){
-    .shirts--wrap{
-        justify-content: center;
-    }
-    .heading-red{
-        font-size: 12px;
-    }
-    .card{
-        margin: 0 20px 20px 0;
-        -ms-flex-preferred-size: 0%;
-            flex-basis: 0%;
-    }
-    .card-img{
-        width: 450px;
-    }
-    .clothes-img{
-        width: 225px;
-    }
-    .phone-number{
-        margin-right: 40px;
-    }
-    .img-instagram{
-        margin-right: 60px;
-    }
-    .trans-lat{
-        margin-right: 50px;
-    }
-    .logo{
-        margin-right: 50px;
-    }
-    .shirts--card{
-        width: 150px;
-        height: 350px;
-        margin-bottom: 50px;
-    }
-}
-@media (max-width:1250px){
-    .img-instagram{
-        margin-right: 20px;
-    }
-    .nav--links{
-        font-size: 24px;
-    }
-    .shirts--card{
-        width: 125px;
-        height: 300px;
-        margin-bottom: 100px;
-    }
-}
-@media (max-width:1110px){
-    .container{
-        width: 100%;
-    }
-    .shirts--card{
-        width: 125px;
-        height: 300px;
-        margin-bottom: 100px;
-    }
-
-    .nav--links{
-        font-size: 20px;
-    }
-    .card-img{
-        width: 350px;
-    }
-}
-@media (max-width:900px){
-    body{
-        -moz-transform: scale(0.7, 0.7); /* Moz-browsers */
-        zoom: 0.7; /* Other non-webkit browsers */
-        zoom: 70%; /* Webkit browsers */
-    }
-    .discount--text{
-        font-size: 16px;
-    }
-    .product--card{
-        flex-wrap: wrap;
-    }
-    .product--info{
-        padding-top: 50px;
-    }
-    .pink--text{
-        text-align: center;
-        font-size: 18px;
-    }
-    .delivery--car--wrap{
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        padding-top: 100px;
-    }
-    .delivery--car--img1{
-        margin-bottom: 50px;
-    }
-    .delivery--car--heading{
-        font-size: 26px;
-    }
-    .shirts--info__heading{
-        font-size: 16px;
-    }
-    .shirts--info__text{
-        font-size: 10px;
-    }
-    .shirts--info__number{
-        font-size: 12px;
-    }
-    .shirts--info__typeBlue{
-        font-size: 12px;
-    }
-    .shirts--info__price, .shirts--info__priceRed, .shirts--info__priceNone{
-        font-size: 18px;
-    }
-    .trans-ru,
-    .trans-lat{
-        display: none;
-    }
-    .nav--links{
-        margin-right: 20px;
-    }
-    .card-img{
-        width: 250px;
-    }
-    .main-heading--red{
-        font-size: 30px;
-    }
-    .view{
-        left: 10%;
-    }
-    .button-all{
-        left: 20%;
-        font-size: 13px;
-    }
-    .basket{
-        display: none;
-    }
-    .head-img{
-        display: none;
-    }
-    .phone-number{
-        display: none;
-    }
-    .phone-img{
-        display: none;
-    }
-    .img-facebook{
-        display: none;
-    }
-    .img-instagram{
-        display: none;
-    }
-}
-@media (max-width:700px){
-    .pink--img{
-        display: none;
-    }
-    .logo{
-        margin-right: -50px;
-    }
-    .nav--links{
-        font-size: 16px;
-    }
-}
-@media (max-width:640px){
-    .shirts--img{
-        height: 175px;
-    }
-    .pink--img{
-        width: 130px;
-        height: 70px;
-        margin-right: 30px;
-    }
-    .delivery--car--heading{
-        font-size: 22px;
-    }
-    .partners-wrap{
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    }
-    #btnLeft{
-        left: 0;
-    }
-    body{
-        font-size: 12px;
-    }
-    .view{
-        width: 150px;
-        height: 40px;
-    }
-    .btn-text{
-        font-size: 13px;
-        line-height: 12px;
-    }
-    .button-all{
-        left: 20%;
-    }
-    .card-img{
-        width: 200px;
-    }
-    .trans-ru,
-    .trans-lat{
-        display: none;
-    }
-    .main-heading--red {
-        font-size: 20px;
-    }
-    .about-heading--red{
-        font-size: 22px;
-    }
-    .about-wrap{
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    }
-    .about-box{
-        margin-bottom: 20px;
-    }
-    .clothes-img{
-        width: 75px;
-    }
-    .clothes-heading{
-        font-size: 14px;
-    }
-    .clothes-text{
-        font-size: 10px;
-    }
-    .shop-img{
-        width: 300px;
-        margin-bottom: 20px;
-    }
-    .note-img{
-        width: 300px;
-    }
-    .long-info{
-        padding: 0;
-        margin-top: 200px;
-        margin-left: 40px;
-    }
-    .long-text{
-        font-size: 12px;
-    }
-    .omniva{
-        width: 40%;
-    }
-    .work-img{
-        width: 40%;
-    }
-    .swiper-button-next {
-        right: 0px;
-        top: 2150px;
-    }
-    .swiper-button-prev {
-        left: 0px;
-        top: 2150px;
-    }
-    .short-text{
-        font-size: 16px;
-    }
-    .short-info{
-        padding: 100px 41px 112px 41px;
-    }
-    .pay-img{
-        margin: 0;
-        width: 30%;
-    }
-    .links{
-        font-size: 10px;
-    }
-    .light-heading{
-        font-size: 10px;
-    }
-    .footer-group{
-        margin-right: 30px;
-        margin-left: 5px;
-    }
-    .form-inputs{
-        margin-left: 55px;
-    }
-    .card{
-        margin: 0;
-    }
-    .red-btn,
-    .form{
-        width: 80%;
-        font-size: 12px;
-    }
-    .footer-imgs{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-    }
-    .mark{
-        margin-left: 10px;
-    }
-}
-@media (max-width: 540px){
-    .product--imgs--wrap{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        text-align: center;
-        margin: auto;
-    }
-    .pink--img{
-        max-width: 150px;
-        height: 80px;
-        margin-right: 30px;
-    }
-    .pink--text{
-        font-size: 14px;
-    }
-    .shirts--card{
-        margin-right: 20px;
-    }
-}
-@media (max-width: 500px){
-    .shirts--card{
-        margin-right: 25px;
-        width: 100px;
-        height: 200px;
-        margin-bottom: 150px;
-    }
-}
-@media (max-width: 500px){
-    .card-img{
-        width: 150px;
-    }
-    .nav--links{
-        font-size: 12px;
-    }
-    .shirts--img{
-        height: 150px;
-    }
-}
-@media (max-width: 400px){
-    .shirts{
-        margin-left: 20%;
-    }
-    .delivery--car--heading{
-        font-size: 18px;
-    }
-    .pink--img{
-        width: 100px;
-        height: 60px;
-        margin-right: 30px;
-    }
-}
-
-@media (max-width: 450px){
-.card-img {
-    width: 139px;
-}
-.view {
-    width: 100px;
-}
-@media (max-width: 350px){
-    .shirts--card{
-        margin-right: 10px;
-    }
-    .nav--links{
-        font-size: 10px;
-    }
-}
-}
-@media (min-width:1400px){
-    .footer-group-col{
-        margin-left: 900px;
-    }
-}
-@media (min-width:1600px){
-    .footer-group-col{
-        margin-left: 1000px;
-    }
-}
 .shop__itemsPr{
     margin-left: 30px;
 }
@@ -1459,7 +988,7 @@ li{
 .product--imgs__big{
     background: url("../img/product-big.jpg") no-repeat;
     height: 550px;
-    width: 450px;
+    width: 500px;
     margin-right: 11px;
     margin-left: 50px;
 }
@@ -1995,4 +1524,529 @@ li{
 }
 .client--info__priceNone{
     text-decoration: line-through;
+}
+@media (max-width:1280px){
+    .short-info{
+        top: -66px;
+        left: -10px;
+    }
+}
+@media (max-width:1890px){
+    .swiper-button-next{
+        right: 230px;
+    }
+    .swiper-button-prev{
+        left: 230px;
+    }
+}
+@media (max-width:1800px){
+    .swiper-button-next{
+        right: 200px;
+    }
+    .swiper-button-prev{
+        left: 200px;
+    }
+}
+@media (max-width:1740px){
+    .swiper-button-next{
+        right: 170px;
+    }
+    .swiper-button-prev{
+        left: 170px;
+    }
+}
+@media (max-width:1250px){
+    .long-info{
+        padding-top: 180px;
+    }
+
+}
+@media (max-width:1670px){
+    .swiper-button-next{
+        right: 130px;
+    }
+    .swiper-button-prev{
+        left: 130px;
+    }
+}
+@media (max-width:1120px){
+    .long-info{
+        left: 20px;
+    }
+    .swiper-button-next{
+        margin-top: -485px;
+    }
+    .swiper-button-prev{
+        margin-top: -485px;
+    }
+}
+@media (max-width:1580px){
+    .swiper-button-next{
+        right: 90px;
+    }
+    .swiper-button-prev{
+        left: 90px;
+    }
+}
+@media (max-width:1500px){
+    .swiper-button-next{
+        right: 40px;
+    }
+    .swiper-button-prev{
+        left: 40px;
+    }
+    body{
+        -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+        zoom: 0.8; /* Other non-webkit browsers */
+        zoom: 80%; /* Webkit browsers */
+    }
+}
+@media (max-width:860px){
+    .red-btn,
+    .form{
+        width: 100%;
+        font-size: 12px;
+    }
+}
+@media (max-width:800px){
+    .shop__itemsPr{
+        -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+        zoom: 0.8; /* Other non-webkit browsers */
+        zoom: 80%; /* Webkit browsers */
+    }
+    #menuPr{
+        justify-content: center;
+    }
+    .swiper-button-next{
+        right: 20px;
+        top:2530px;
+    }
+    .swiper-button-prev{
+        left: 20px;
+        top:2530px;
+    }
+}
+@media (min-width:1400px){
+    .shirts--wrap{
+        padding-right: 50px;
+    }
+}
+@media (max-width:1400px){
+    .shirts--wrap{
+        justify-content: center;
+    }
+    .heading-red{
+        font-size: 12px;
+    }
+    .card{
+        margin: 0 20px 20px 0;
+        -ms-flex-preferred-size: 0%;
+            flex-basis: 0%;
+    }
+    .card-img{
+        width: 450px;
+    }
+    .clothes-img{
+        width: 225px;
+    }
+    .phone-number{
+        margin-right: 40px;
+    }
+    .img-instagram{
+        margin-right: 60px;
+    }
+    .trans-lat{
+        margin-right: 50px;
+    }
+    .logo{
+        margin-right: 50px;
+    }
+    .shirts--card{
+        width: 150px;
+        height: 350px;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width:1250px){
+    .img-instagram{
+        margin-right: 20px;
+    }
+    .nav--links{
+        font-size: 24px;
+    }
+    .shirts--card{
+        width: 125px;
+        height: 300px;
+        margin-bottom: 100px;
+    }
+}
+@media (max-width:1110px){
+    .product--card{
+        flex-wrap: wrap;
+    }
+    .container{
+        width: 100%;
+    }
+    .shirts--card{
+        width: 125px;
+        height: 300px;
+        margin-bottom: 100px;
+    }
+
+    .nav--links{
+        font-size: 20px;
+    }
+    .card-img{
+        width: 350px;
+    }
+}
+@media (max-width:900px){
+    body{
+        -moz-transform: scale(0.7, 0.7); /* Moz-browsers */
+        zoom: 0.7; /* Other non-webkit browsers */
+        zoom: 70%; /* Webkit browsers */
+    }
+    .discount--text{
+        font-size: 16px;
+    }
+    .product--info{
+        padding-top: 50px;
+    }
+    .pink--text{
+        text-align: center;
+        font-size: 18px;
+    }
+    .delivery--car--wrap{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding-top: 100px;
+    }
+    .delivery--car--img1{
+        margin-bottom: 50px;
+    }
+    .delivery--car--heading{
+        font-size: 26px;
+    }
+    .shirts--info__heading{
+        font-size: 16px;
+    }
+    .shirts--info__text{
+        font-size: 10px;
+    }
+    .shirts--info__number{
+        font-size: 12px;
+    }
+    .shirts--info__typeBlue{
+        font-size: 12px;
+    }
+    .shirts--info__price, .shirts--info__priceRed, .shirts--info__priceNone{
+        font-size: 18px;
+    }
+    .trans-ru,
+    .trans-lat{
+        display: none;
+    }
+    .nav--links{
+        margin-right: 20px;
+    }
+    .card-img{
+        width: 250px;
+    }
+    .main-heading--red{
+        font-size: 30px;
+    }
+    .view{
+        left: 10%;
+    }
+    .button-all{
+        left: 20%;
+        font-size: 13px;
+    }
+    .basket{
+        display: none;
+    }
+    .head-img{
+        display: none;
+    }
+    .phone-number{
+        display: none;
+    }
+    .phone-img{
+        display: none;
+    }
+    .img-facebook{
+        display: none;
+    }
+    .img-instagram{
+        display: none;
+    }
+    .product--text{
+        width: 300px;
+    }
+    .product--buttons{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:700px){
+    .pink--img{
+        display: none;
+    }
+    .logo{
+        margin-right: -50px;
+    }
+    .nav--links{
+        font-size: 16px;
+    }
+}
+@media (max-width:640px){
+    .shirts--img{
+        height: 175px;
+    }
+    .pink--img{
+        width: 130px;
+        height: 70px;
+        margin-right: 30px;
+    }
+    .delivery--car--heading{
+        font-size: 22px;
+    }
+    .partners-wrap{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    #btnLeft{
+        left: 0;
+    }
+    body{
+        font-size: 12px;
+    }
+    .view{
+        width: 150px;
+        height: 40px;
+    }
+    .btn-text{
+        font-size: 13px;
+        line-height: 12px;
+    }
+    .button-all{
+        left: 20%;
+    }
+    .card-img{
+        width: 200px;
+    }
+    .trans-ru,
+    .trans-lat{
+        display: none;
+    }
+    .main-heading--red {
+        font-size: 20px;
+    }
+    .about-heading--red{
+        font-size: 22px;
+    }
+    .about-wrap{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .about-box{
+        margin-bottom: 20px;
+    }
+    .clothes-img{
+        width: 75px;
+    }
+    .clothes-heading{
+        font-size: 14px;
+    }
+    .clothes-text{
+        font-size: 10px;
+    }
+    .shop-img{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .note-img{
+        width: 300px;
+    }
+    .long-info{
+        padding: 0;
+        margin-top: 200px;
+        margin-left: 40px;
+    }
+    .long-text{
+        font-size: 12px;
+    }
+    .omniva{
+        width: 40%;
+    }
+    .work-img{
+        width: 40%;
+    }
+    .swiper-button-next {
+        right: 0px;
+        top: 2150px;
+    }
+    .swiper-button-prev {
+        left: 0px;
+        top: 2150px;
+    }
+    .short-text{
+        font-size: 16px;
+    }
+    .short-info{
+        padding: 100px 41px 112px 41px;
+    }
+    .pay-img{
+        margin: 0;
+        width: 30%;
+    }
+    .links{
+        font-size: 10px;
+    }
+    .light-heading{
+        font-size: 10px;
+    }
+    .footer-group{
+        margin-right: 30px;
+        margin-left: 5px;
+    }
+    .form-inputs{
+        margin-left: 55px;
+    }
+    .card{
+        margin: 0;
+    }
+    .red-btn,
+    .form{
+        width: 80%;
+        font-size: 12px;
+    }
+    .footer-imgs{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .mark{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 540px){
+    .review--wrap{
+        -moz-transform: scale(0.7, 0.7); /* Moz-browsers */
+        zoom: 0.7; /* Other non-webkit browsers */
+        zoom: 70%; /* Webkit browsers */
+    }
+    .product--imgs__big{
+        margin: auto;
+        width: 400px;
+    }
+    #imgs__min1,
+    #imgs__min2,
+    #imgs__min3{
+        margin-right: 20px;
+        width: 100px;
+        background-position: center;
+        background-size: cover;
+    }
+    .client--text__small{
+        width: 300px;
+    }
+    .header{
+        margin-bottom: 0px;
+    }
+    .shop__itemsPr{
+        display: none;
+    }
+    .redPr{
+        font-size: 12px;
+    }
+    .menu__title-1Pr{
+        font-size: 12px;
+    }
+    .product--imgs{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        margin: auto;
+    }
+    .product--imgs--wrap{
+        padding-top: 50px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        margin: auto;
+    }
+    .pink--img{
+        max-width: 150px;
+        height: 80px;
+        margin-right: 30px;
+    }
+    .pink--text{
+        font-size: 14px;
+    }
+    .shirts--card{
+        margin-right: 20px;
+    }
+}
+@media (max-width: 500px){
+    .shirts--card{
+        margin-right: 25px;
+        width: 100px;
+        height: 200px;
+        margin-bottom: 150px;
+    }
+}
+@media (max-width: 500px){
+    .card-img{
+        width: 150px;
+    }
+    .nav--links{
+        font-size: 12px;
+    }
+    .shirts--img{
+        height: 150px;
+    }
+}
+@media (max-width: 400px){
+    .shirts{
+        margin-left: 20%;
+    }
+    .delivery--car--heading{
+        font-size: 18px;
+    }
+    .pink--img{
+        width: 100px;
+        height: 60px;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 450px){
+.card-img {
+    width: 139px;
+}
+.view {
+    width: 100px;
+}
+@media (max-width: 350px){
+    .shirts--card{
+        margin-right: 10px;
+    }
+    .nav--links{
+        font-size: 10px;
+    }
+}
+}
+@media (min-width:1400px){
+    .footer-group-col{
+        margin-left: 900px;
+    }
+}
+@media (min-width:1600px){
+    .footer-group-col{
+        margin-left: 1000px;
+    }
 }
