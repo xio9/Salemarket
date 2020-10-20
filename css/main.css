@@ -1526,6 +1526,9 @@ li{
 .client--info__priceNone{
     text-decoration: line-through;
 }
+.shirts--wrap{
+    padding-right: 50px;
+}
 @media (max-width:1280px){
     .short-info{
         top: -66px;
@@ -1627,14 +1630,11 @@ li{
         top:2530px;
     }
 }
-@media (min-width:1400px){
-    .shirts--wrap{
-        padding-right: 50px;
-    }
-}
 @media (max-width:1400px){
-    .shirts--wrap{
-        justify-content: center;
+    .shirts{
+        -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+        zoom: 0.8; /* Other non-webkit browsers */
+        zoom: 80%; /* Webkit browsers */
     }
     .heading-red{
         font-size: 12px;
@@ -1662,23 +1662,10 @@ li{
     .logo{
         margin-right: 50px;
     }
-    .shirts--card{
-        width: 150px;
-        height: 350px;
-        margin-bottom: 50px;
-    }
 }
 @media (max-width:1250px){
     .img-instagram{
         margin-right: 20px;
-    }
-    .nav--links{
-        font-size: 24px;
-    }
-    .shirts--card{
-        width: 125px;
-        height: 300px;
-        margin-bottom: 100px;
     }
 }
 @media (max-width:1110px){
@@ -1687,15 +1674,6 @@ li{
     }
     .container{
         width: 100%;
-    }
-    .shirts--card{
-        width: 125px;
-        height: 300px;
-        margin-bottom: 100px;
-    }
-
-    .nav--links{
-        font-size: 20px;
     }
     .card-img{
         width: 350px;
@@ -1798,11 +1776,14 @@ li{
     .logo{
         margin-right: -50px;
     }
-    .nav--links{
-        font-size: 16px;
-    }
 }
 @media (max-width:640px){
+    .shirts--wrap{
+        justify-content: center;
+    }
+    .shop__items{
+        display: none;
+    }
     .shirts--img{
         height: 175px;
     }
@@ -1934,6 +1915,9 @@ li{
     }
 }
 @media (max-width: 540px){
+    .shirts--wrap{
+        padding: 0;
+    }
     .review--wrap{
         -moz-transform: scale(0.7, 0.7); /* Moz-browsers */
         zoom: 0.7; /* Other non-webkit browsers */
@@ -2012,9 +1996,6 @@ li{
     }
 }
 @media (max-width: 400px){
-    .shirts{
-        margin-left: 20%;
-    }
     .delivery--car--heading{
         font-size: 18px;
     }
