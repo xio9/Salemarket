@@ -825,7 +825,7 @@ button{
 }
 .pink--img{
     background: url("../img/!.svg") no-repeat;
-    width: 200px;
+    width: 150px;
     height: 100px;
     margin-right: 50px;
 }
@@ -1021,6 +1021,11 @@ li{
     .swiper-button-prev{
         left: 40px;
     }
+    body{
+        -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+        zoom: 0.8; /* Other non-webkit browsers */
+        zoom: 80%; /* Webkit browsers */
+    }
 }
 @media (max-width:860px){
     .red-btn,
@@ -1111,6 +1116,20 @@ li{
     }
 }
 @media (max-width:900px){
+    body{
+        -moz-transform: scale(0.7, 0.7); /* Moz-browsers */
+        zoom: 0.7; /* Other non-webkit browsers */
+        zoom: 70%; /* Webkit browsers */
+    }
+    .discount--text{
+        font-size: 16px;
+    }
+    .product--card{
+        flex-wrap: wrap;
+    }
+    .product--info{
+        padding-top: 50px;
+    }
     .pink--text{
         text-align: center;
         font-size: 18px;
@@ -1325,6 +1344,13 @@ li{
     }
 }
 @media (max-width: 540px){
+    .product--imgs--wrap{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        margin: auto;
+    }
     .pink--img{
         max-width: 150px;
         height: 80px;
