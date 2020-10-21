@@ -1694,11 +1694,6 @@ li{
     .swiper-button-prev{
         left: 40px;
     }
-    body{
-        -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
-        zoom: 0.8; /* Other non-webkit browsers */
-        zoom: 80%; /* Webkit browsers */
-    }
 }
 @media (max-width:860px){
     .red-btn,
