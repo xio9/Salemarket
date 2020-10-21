@@ -1747,18 +1747,6 @@ li{
     .clothes-img{
         width: 225px;
     }
-    .phone-number{
-        margin-right: 40px;
-    }
-    .img-instagram{
-        margin-right: 60px;
-    }
-    .trans-lat{
-        margin-right: 50px;
-    }
-    .logo{
-        margin-right: 50px;
-    }
 }
 @media (max-width:1250px){
     .img-instagram{
