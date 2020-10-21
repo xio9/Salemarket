@@ -35,6 +35,9 @@ body{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -moz-transform: scale(1.1, 1.1); /* Moz-browsers */
+    zoom: 1.1; /* Other non-webkit browsers */
+    zoom: 110%; /* Webkit browsers */
 }
 .nav{
     display: -webkit-box;
