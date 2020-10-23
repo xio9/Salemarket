@@ -20,9 +20,9 @@ body{
     font-weight: 500;
     font-size: 12px;
     line-height: 17px;
-    -moz-transform: scale(0.9, 0.9); /* Moz-browsers */
-    zoom: 0.9; /* Other non-webkit browsers */
-    zoom: 90%; /* Webkit browsers */
+    -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+    zoom: 0.8; /* Other non-webkit browsers */
+    zoom: 80%; /* Webkit browsers */
 }
 .container{
     width: 85%;
@@ -35,9 +35,9 @@ body{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -moz-transform: scale(1.1, 1.1); /* Moz-browsers */
-    zoom: 1.1; /* Other non-webkit browsers */
-    zoom: 110%; /* Webkit browsers */
+    -moz-transform: scale(1.0, 1.0); /* Moz-browsers */
+    zoom: 1.0; /* Other non-webkit browsers */
+    zoom: 100%; /* Webkit browsers */
 }
 .nav{
     display: -webkit-box;
@@ -1704,9 +1704,9 @@ li{
 }
 @media (max-width:800px){
     .shop__itemsPr{
-        -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
-        zoom: 0.8; /* Other non-webkit browsers */
-        zoom: 80%; /* Webkit browsers */
+        -moz-transform: scale(0.7, 0.7); /* Moz-browsers */
+        zoom: 0.7; /* Other non-webkit browsers */
+        zoom: 70%; /* Webkit browsers */
     }
     #menuPr{
         -webkit-box-pack: center;
@@ -1762,9 +1762,9 @@ li{
 }
 @media (max-width:900px){
     body{
-        -moz-transform: scale(0.7, 0.7); /* Moz-browsers */
-        zoom: 0.7; /* Other non-webkit browsers */
-        zoom: 70%; /* Webkit browsers */
+        -moz-transform: scale(0.6, 0.6); /* Moz-browsers */
+        zoom: 0.6; /* Other non-webkit browsers */
+        zoom: 60%; /* Webkit browsers */
     }
     .discount--text{
         font-size: 16px;
